@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+}
+
+.image-background {
+    height: 30rem;
+    width: 60rem;
+    background-image: url(./Untitled-1144.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: text;
+    border: 3px solid red;
+}
+
+.text-div {
+    height: 25rem;
+    width: 20rem;
+    background-color: white;
+    margin-left: 1rem;
+    mix-blend-mode: screen;
+}
+
+p {
+    text-align: center;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.20rem;
+    padding: 1rem;
+    mix-blend-mode: multiply;
+}
+
